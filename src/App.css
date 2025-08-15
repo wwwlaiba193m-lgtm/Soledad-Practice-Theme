@@ -230,6 +230,7 @@ hr {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  /* background-color: red; */
 }
 .container2 .img-card2 {
   width: 22%;
