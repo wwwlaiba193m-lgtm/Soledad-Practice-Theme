@@ -1,0 +1,254 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.topnav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.topnav ul li {
+  display: inline;
+}
+.topnav li a {
+  margin: 10px 6px;
+  padding: 5px 7px;
+  background: linear-gradient(red, green, blue);
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.topnav input {
+  height: 30px;
+  width: 80%;
+}
+.search {
+  display: flex;
+  width: 40%;
+}
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 0px 20px;
+}
+.ser {
+  font-size: 30px;
+}
+.secondnav ul li {
+  display: inline;
+  margin: 10px 10px;
+}
+.secondnav ul li a {
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.secondnav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  width: 98%;
+  margin: auto;
+  height: auto;
+}
+.main .left {
+  width: 45%;
+  height: auto;
+}
+.main .right {
+  width: 45%;
+  height: auto;
+}
+.imag {
+  background-image: url(https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg);
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.imag p {
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.331);
+  color: white;
+  border-radius: 20px;
+}
+.parent {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.child {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+.child img {
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+}
+.child p {
+  margin: 0px;
+}
+
+.img1 {
+  background-image: url(https://wallpapers.com/images/hd/pretty-profile-pictures-k1qebyviiyl0wx0x.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+.img-main {
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.img1 p {
+  padding: 10px 20px;
+  /* background-color: rgba(0, 0, 0, 0.534); */
+  color: white;
+  border-radius: 20px;
+}
+.main-box {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+}
+.main-box hr {
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, rgba(0, 0, 255, 0.795), black, black);
+}
+.img-box {
+  width: 45%;
+  /* border:  1px solid rgba(0, 0, 0, 0.361); */
+  padding: 10px 5px;
+  margin: 10px 0px;
+}
+.img-box p:hover {
+  color: blue;
+  cursor: pointer;
+}
+.boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  gap: 20px;
+  margin: 20px 0px;
+}
+.boxes img {
+  width: 80px;
+  height: 80px;
+}
+.boxes p {
+  margin: 0px;
+}
+
+.content a {
+  margin: 5px 0px;
+  text-decoration: none;
+  padding: 0px 0px;
+}
+.img-box p {
+  margin: 12px 0px;
+}
+.center {
+  width: 70%;
+  margin: auto;
+}
+.center img {
+  width: 100%;
+}
+.main-third {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.main-third ul li {
+  display: inline;
+}
+.main-third ul li a {
+  text-decoration: none;
+  margin: 10px 20px;
+  color: black;
+}
+.main-third {
+  width: 90%;
+  margin: 10px auto;
+}
+.main-third button {
+  padding: 20px 30px;
+  margin: 0px;
+  background-color: black;
+  color: white;
+  box-shadow: 10px 0px 5px rgba(0, 0, 0, 0.906);
+  border-top-right-radius: 200px;
+}
+hr {
+  width: 90%;
+}
+.container {
+  width: 96%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.img-card {
+  width: 22%;
+  height: auto;
+  padding: 10px;
+}
+.img-card img {
+  width: 100%;
+}
+.container2 {
+  display: flex;
+  width: 96%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container2 .img-card2 {
+  width: 22%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+.img-card2
+{
+  background-color: rgba(255, 255, 255, 0.614);
+  padding: 10px;
+}
+.img-card2 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.content p {
+  margin: 0px;
+}
