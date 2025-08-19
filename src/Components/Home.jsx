@@ -10,9 +10,7 @@ export default function Home() {
         <Left />
         <Right/>
       </div>
-       <div className="center">
-       <img src="https://soledaddemo.pencidesign.net/wp-content/uploads/2021/08/banner-home.jpg" alt="" />
-    </div>
+
     </>
   );
 }
